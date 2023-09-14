@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>데이터 입력 폼</title>
+</head>
+<body>
+    <form action="http://3.34.50.23/save_report.php" method="post">
+        <label for="uid">UID:</label>
+        <input type="text" id="uid" name="uid" value="123"><br><br>
+
+        <label for="dialog">대화:</label>
+        <textarea id="dialog" name="dialog">채팅 내용 입력</textarea><br><br>
+
+        <label for="report_image">이미지:</label>
+        <input type="text" id="report_image" name="report_image" value="base64_encoded_image_data"><br><br>
+
+        <input type="submit" value="데이터 전송">
+    </form>
+</body>
+</html>
